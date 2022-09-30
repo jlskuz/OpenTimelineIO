@@ -11,6 +11,12 @@ namespace opentimelineio { namespace OPENTIMELINEIO_VERSION {
 class GeneratorReference final : public MediaReference
 {
 public:
+    struct Kind
+    {
+        static auto constexpr SMPTE_Bars = "SMPTEBars";
+        static auto constexpr SolidColor = "SolidColor";
+    };
+
     struct Schema
     {
         static auto constexpr name   = "GeneratorReference";

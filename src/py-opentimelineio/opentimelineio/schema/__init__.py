@@ -30,6 +30,7 @@ MarkerColor = Marker.Color
 TrackKind = Track.Kind
 TransitionTypes = Transition.Type
 NeighborGapPolicy = Track.NeighborGapPolicy
+GeneratorKinds = GeneratorReference.Kind
 
 from . schemadef import (
     SchemaDef
